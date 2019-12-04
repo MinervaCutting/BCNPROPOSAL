@@ -1,6 +1,6 @@
 name: "my-website"
 navbar:
-  title: "CE Events"
+  title: "CUTT/events"
   left:
     - text: "Quotation"
       href: index.html
