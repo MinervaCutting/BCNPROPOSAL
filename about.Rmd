@@ -6,29 +6,39 @@ output:
  
   html_document:
     css: FORMATO1.css
-    fig_width: 8
-    fig_height: 8
-    highlight: textmate
     theme: cosmo
-    
-
 ---
+
+<style>
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #EA5933;
+    font-weight: bold;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: white;
+    background-color: #EA5933;
+}
+</style>
 
 <script> 
     $(document).ready(function() { 
     $head = $('#header'); 
-    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="CUTTLOGO.svg" width="200" vspace="50" align="right"></A>') 
     }); 
 </script> 
 
-<br /><br /><br /><br />
 
-</style>
+<br>
+
+## _**Company intro**_ {.tabset .tabset-fade .tabset-pills}
+
+### **Company Credentials** 
 
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
-
-## Company intro 
 
 ***Cutting Edge Events*** offers a fresh approach to the world of [Meetings & Events]. As the name of the company suggests, we are on top of the latest technologies, and apply them every day to stay on top of the game.
 
@@ -49,9 +59,6 @@ Here's a brief list of our main Unique Selling Points and typical workflow, whic
  * All in all, we encourage you to try us - and experience an Agency that works like no other in the industry !
 </div>
 
-
-
-
 <style>
 p.comment {
 background-color: #f2f7f9;
@@ -63,7 +70,7 @@ font-style: italic;
 }
 </style>
 
-<br /><br /><br />
+<br><br><br>
 
 <div class="col-sm-6">
 You can find plenty of references within our Curriculum, but here's what some of our latest clients had to say about our work - *(all groups had above 70pax attendance):* <br /><br /><br />
@@ -79,9 +86,8 @@ Once again, THANK YOU for your great contribution to the success of last week ev
 As a partner at **Better Travel & Events** , I have had the pleasure of collaborating with **Cutting Edge Events** on several occasions. On each event, I have experienced a very high level of professionalism, personal service, flexibility, and good understanding of our needs and briefing, for different clients and nationalities. It is always a great pleasure to work with **Cutting Edge Events** and a solid partnership - *Mette Ingsgrup*, ***Better travel***, - *March, 2019*
 </p>
 </div>
+</div>
+
+<img src = "CURRICULUM GRAFICO.jpeg" width="1000">
 
 
-
-
-
-<img src = "CURRICULUM GRAFICO.001.jpeg" width="1000">
